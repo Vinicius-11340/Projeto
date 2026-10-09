@@ -1,0 +1,1 @@
+alert('Teste de JS em um input do tipo de botão');
