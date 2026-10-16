@@ -46,7 +46,7 @@ ul li{
 }
 
 @media (max-width: 768px){
-    .links{
+    .links.active{
         display: none;
         flex-direction: column;
     }
@@ -54,4 +54,38 @@ ul li{
     .menu-icon{
         display: block;
     }
+
+    ul li{
+        margin: 24px;
+    }
+}
+
+section{
+    padding: 24px;
+    max-width: 768px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+section form label{
+    display: block;
+    margin: 24px;
+    color: rgb(41, 40, 40);
+}
+
+section form input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+section form button{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 100px;
+    color:aliceblue;
+    background-color: rgb(41, 40, 40);
+
 }
